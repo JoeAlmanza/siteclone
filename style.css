@@ -21,7 +21,7 @@ footer{
 .hero-image {
   background-image: url(.//graffiti.jpg);
   background-size: cover;
-  height: 25vh;
+  height: 60vh;
   background-position: center center;
 }
 
