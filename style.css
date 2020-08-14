@@ -28,3 +28,26 @@ footer{
 .text-shadow {
   text-shadow: 2px 2px black;
 }
+
+.option-list {
+  position: relative;
+}
+
+.list-card {
+  width: 300px;
+  position: absolute;
+  top: 0;
+  transform: translateY(10%);
+  box-shadow: 2px 2px black;
+  margin: auto;
+}
+
+.side-image {
+  height: 40%;
+  margin-top: 3em;
+  margin-left: 3em;
+}
+
+.main-text {
+  margin-top: 4em;
+}
