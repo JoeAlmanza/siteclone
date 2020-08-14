@@ -1,0 +1,30 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+header{
+  height: 10vh;
+;
+}
+
+main{
+  flex-grow: 1;
+}
+
+footer{
+  min-height: 10vh;
+}
+
+.hero-image {
+  background-image: url(.//graffiti.jpg);
+  background-size: cover;
+  height: 25vh;
+  background-position: center center;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px black;
+}
