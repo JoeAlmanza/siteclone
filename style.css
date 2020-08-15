@@ -38,6 +38,10 @@ footer{
   position: relative;
 }
 
+.center-button {
+  border: 2px solid black;
+}
+
 .list-card {
   width: 250px;
   top: 0;
@@ -50,13 +54,23 @@ footer{
   width: 250px;
 }
 
+.card-purple {
+  color: rgb(139, 42, 139);
+  border-color: rgb(0, 0, 0);
+}
+
 .card-bg {
-  background-color: rgb(221, 221, 221);
+  background-image: url(./chainlink.jpg);
+  background-size: cover;
+  height: 100%;
+  background-position: center bottom;
 }
 
 .side-image {
   height: 40%;
+  width: 85%;
   border-radius: 5%;
+  border: 6px solid #ffc107;
 }
 
 .main-text {
