@@ -21,12 +21,17 @@ footer{
 .hero-image {
   background-image: url(.//graffiti.jpg);
   background-size: cover;
-  height: 60vh;
+  height: 55vh;
   background-position: center center;
 }
 
+.hero-card {
+  box-shadow: 1px 1px black
+  ;
+}
+
 .text-shadow {
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
 }
 
 .option-list {
@@ -34,18 +39,24 @@ footer{
 }
 
 .list-card {
-  width: 300px;
-  position: absolute;
+  width: 250px;
   top: 0;
   transform: translateY(10%);
-  box-shadow: 2px 2px black;
+  box-shadow: 4px 4px black;
   margin: auto;
+}
+
+.main-card {
+  width: 250px;
+}
+
+.card-bg {
+  background-color: rgb(221, 221, 221);
 }
 
 .side-image {
   height: 40%;
-  margin-top: 3em;
-  margin-left: 3em;
+  border-radius: 5%;
 }
 
 .main-text {
