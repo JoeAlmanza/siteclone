@@ -18,11 +18,15 @@ footer{
   min-height: 10vh;
 }
 
-.hero-image {
-  background-image: url(.//graffiti.jpg);
-  background-size: cover;
-  height: 75vh;
-  background-position: center center;
+@media (min-width: 767px) {
+
+  .hero-image {
+    background-image: url(.//graffiti.jpg);
+    background-size: cover;
+    height: 75vh;
+    background-position: center center;
+  }
+
 }
 
 .card-shadow {
